@@ -65,6 +65,7 @@ input, textarea {
     margin: 15px 0;
     letter-spacing: 5px;
     padding-left: 10px;
+    outline: none;
 }
 
 input::placeholder, 
@@ -92,3 +93,24 @@ textarea::placeholder {
     z-index: 1;
     margin-top: 60px;
 }
+
+button:hover {
+    transform: scale(1.1);
+    border: 1px solid white;
+}
+
+button:active {
+    transform: scale(1.05);
+    border: 1px solid white;
+    transform: translateY(5px)
+  }
+
+ input:hover {
+    transform: scale(1.05);
+    border: 1px solid white;
+  }
+
+  textarea:hover {
+    transform: scale(1.05);
+    border: 1px solid white;
+  }
